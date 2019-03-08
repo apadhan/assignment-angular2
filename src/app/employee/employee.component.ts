@@ -7,7 +7,7 @@ import { EmployeeService } from './employee.service';
   providers: [EmployeeService]
 })
 export class EmployeeComponent implements OnInit {
-private employeeList=[];
+public employeeList=[];
   constructor(private es:EmployeeService) { }
 
   ngOnInit() {
